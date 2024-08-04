@@ -1,11 +1,11 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "bajaj_tracking";
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "bajaj_tracking";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli("localhost", "admin","admin1234", "bajaji");
 
 // Check connection
 if ($conn->connect_error) {
