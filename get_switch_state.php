@@ -3,8 +3,8 @@
 // $username = "root";
 // $password = "";
 // $dbname = "bajaj_tracking";
-
 // Create connection
+
 $conn = new mysqli("localhost", "admin","admin1234", "bajaji");
 
 // Check connection
